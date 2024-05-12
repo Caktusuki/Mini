@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Attractive Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0 auto;
+        }
+        
+        .title {
+            font-size: 20px;
+            padding: 13px;
+            padding-left: 20px;
+        }
+        
+        center {
+            background-color: #ffffff;
+            padding: aut0;
+        }
+        
+        img {
+            padding: 6%;
+            box-shadow: 0 0 10px rgba(18, 3, 152, 0.914);
+        }
+        
+        section {
+            width: 1000px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .container {
+            width: 10px;
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        
+        .container .card {
+            position: relative;
+        }
+        
+        .container .card .face {
+            width: 300px;
+            height: 200px;
+            transition: .4s;
+        }
+        
+        .container .card .face.face1 {
+            position: relative;
+            background: #333;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            z-index: 1;
+            transform: translateY(100px);
+        }
+        
+        .container .card:hover .face.face1 {
+            transform: translateY(0);
+            box-shadow: inset 0 0 60px whitesmoke, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
+        }
+        
+        .container .card .face.face1 .content {
+            opacity: .2;
+            transition: 0.5s;
+            text-align: center;
+        }
+        
+        .container .card:hover .face.face1 .content {
+            opacity: 1;
+        }
+        
+        .container .card .face.face1 .content i {
+            font-size: 3em;
+            color: white;
+            display: inline-block;
+        }
+        
+        .container .card .face.face1 .content h3 {
+            font-size: 1em;
+            color: white;
+            text-align: center ;
+        }
+        
+        .container .card .face.face1 .content a {
+            transition: .5s;
+        }
+        
+        .container .card .face.face2 {
+            position: relative;
+            background: whitesmoke;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            box-sizing: border-box;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, .8);
+            transform: translateY(-100px);
+        }
+        
+        .container .card:hover .face.face2 {
+            transform: translateY(0);
+        }
+        
+        .container .card .face.face2 .content p,
+        a {
+            font-size: 10pt;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        
+        .container .card .face.face2 .content a {
+            text-decoration: none;
+            color: black;
+            box-sizing: border-box;
+            outline: 1px dashed #333;
+            padding: 10px;
+            margin: 15px 0 0;
+            display: inline-block;
+        }
+        
+        .container .card .face.face2 .content a:hover {
+            background: #333;
+            color: whitesmoke;
+            box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+        }
+        
+        nav {
+            background-color: #333;
+            color: #fff;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        nav ul li {
+            display: inline-block;
+        }
+        
+        nav ul li a {
+            display: block;
+            padding: 10px 20px;
+            color: #fff;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        
+        nav ul li a:hover {
+            background-color: #1c2779;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="head">
+
+        <img src="aa.jpg" width="1000">
+
+    </div>
+    <center>
+        <section>
+
+            <h1> Lab mannual </h1>
+
+        </section>
+
+        <div class="wrapper">
+
+            <nav>
+                <ul>
+                    <li><a href="c.html">C</a></li>
+                    <li><a href="#">JAVA</a></li>
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">CSS</a></li>
+                    <li>
+                        <a href="#"></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <section>
+
+            <h2>About Our Study Lab Mannual: Connecting First-Year Students</h2>
+            <p> Welcome to <a href="webpage.html">Study Lab Mannual,</a> your go-to resource for acing your first year of B.Tech! 🎓 As first-year students ourselves, we understand the excitement, challenges, and curiosity that come with stepping into the
+                world of higher education. Whether you’re pursuing Computer Science, we’ve got you covered. </p>
+            <h2>Our Mission</h2>
+            <p> At Study Hub, our mission is simple: Empower First-Year Students. We believe that a strong foundation in the initial year sets the tone for the rest of your academic journey. Our website aims to provide valuable resources, tips, and guidance
+                to help you navigate this crucial phase successfully.</p>
+            <h2> What You’ll Find Here</h2>
+            <p><b>1 .Subject Notes and Tutorials:</b> We’ve curated comprehensive notes and tutorials for all core subjects. From calculus to programming, dive into well-organized content that simplifies complex topics.
+            </p>
+            <b> 2.Strategies: </b> how to manage your time effectively? Need tips for acing exams? Look no further! Our study strategies section offers practical advice backed by experience.</p>
+            <b>3. Coding Practice:</b> If you’re passionate about coding (like we are!), explore our coding challenges, mini-projects, and practice exercises. Strengthen your programming skills and build confidence.
+            </p>
+        </section>
+        <section>
+            <h2>Meet the Team</h2>
+            <p>Our Study Hub team comprises enthusiastic first-year B.Tech students from B-TECH-CSE . We’re passionate about learning, teaching, and making your academic journey smoother. Here are some of our core members:</p>
+            <ul>
+                <li><b>Kaushik Mandal</b></li>
+                <li><b>Vickyraj Deka</b></li>
+                <li><b>Nikita kashyap</b></li>
+                <li><b>Aayush Kumar Prasad</b></li>
+                <p>Under the guidance of <b> 🎓 Nisha Sharma</b></p>
+            </ul>
+        </section>
+        <section>
+        </section>
+        <h1>Join Us!</h1>
+
+
+        <div class="container">
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <i class="fab fa-windows"></i>
+                        <h3>Instagram</h3>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+
+                        <a href="#" type="button">FOLLOW US</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <i class="fab fa-android"></i>
+                        <h3> OFFICIAL ACCOUNT</h3>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        <a href="#" type="button">JOIN-US</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <i class="fab fa-apple"></i>
+                        <h3>GOOGLE DRIVE</h3>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+
+                        <a href="#" type="button">DOWNLOAD-NOW</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+</body>
+
+</html>
